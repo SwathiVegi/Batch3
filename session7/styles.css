@@ -1,0 +1,16 @@
+.container{
+    height:600px;
+    width: 500px;
+    border:1px solid red;
+    position: relative;
+    overflow: scroll;
+
+}
+.box{
+    height:100px;
+    width:100px;
+    border:1px solid blue;
+    position: absolute;
+    top:0px;
+    left:0px;
+}

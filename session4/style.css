@@ -1,0 +1,36 @@
+.box{
+    height:100px;
+    width: 100px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #eee;
+    text-shadow: 1px 1px 1px #eee;
+    margin-left:300px;
+    transition: 0.3s ease;
+}
+.box-moving{
+    margin-left:0px;
+}
+button{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+
+    padding:15px 10px;
+    color:#fff;
+    border:1px solid #1e5799;
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#080808 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #1e5799 0%,#080808 50%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #1e5799 0%,#080808 50%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #1e5799 0%,#080808 50%,#7db9e8 100%); /* W3C */
+    text-shadow: 1px 1px 1px #f2f2f2;
+
+
+
+}
+button:hover{
+
+    background: -webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C */
+
+}
